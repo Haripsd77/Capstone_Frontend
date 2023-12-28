@@ -53,7 +53,7 @@ export const Suggestion = () => {
       <h2 style={{color:"grey"}}>Suggested Dresses</h2>
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {filteredDresses.map(dress => (
-          <Card key={dress._id} style={{ maxWidth: 450, margin: 10 }}>
+          <Card key={dress._id} style={{ maxWidth: 400, margin: 10 }}>
             <CardMedia
               component="img"
               alt={dress.dressname}
