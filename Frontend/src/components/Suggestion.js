@@ -7,7 +7,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
-// ... (your import statements remain unchanged)
 
 export const Suggestion = () => {
   const [dresses, setDresses] = useState([]);
